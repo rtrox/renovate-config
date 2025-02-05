@@ -23,7 +23,10 @@ To integrate these configurations into your project, follow these steps:
 
    ```json
    {
-     "extends": ["github>rtrox/renovate-config:default"]
+     $schema: "https://docs.renovatebot.com/renovate-schema.json",
+     extends: [
+         "local>rtrox/renovate-config"
+      ],
    }
    ```
 
