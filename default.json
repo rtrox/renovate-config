@@ -1,6 +1,6 @@
 {
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  extends: [
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
     "config:recommended",
     ":dependencyDashboard",
     ":disableRateLimiting",
@@ -11,11 +11,12 @@
     "github>rtrox/renovate-config:pr-labels.json5",
     "github>rtrox/renovate-config:semantic-commits.json5",
     "github>rtrox/renovate-config:custom-managers.json5",
+    "github>rtrox/renovate-config:golang.json5"
   ],
-  timezone: "America/Los_Angeles",
-  dependencyDashboardTitle: "Renovate Dashboard 🤖",
-  suppressNotifications: ["prIgnoreNotification"],
-  commitBodyTable: true,
-  rebaseWhen: "conflicted",
-  platformCommit: true,
+  "timezone": "America/Los_Angeles",
+  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+  "suppressNotifications": ["prIgnoreNotification"],
+  "commitBodyTable": true,
+  "rebaseWhen": "conflicted",
+  "platformCommit": "auto"
 }
