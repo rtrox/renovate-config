@@ -21,7 +21,7 @@ To integrate these configurations into your project, follow these steps:
 1. **Reference the Repository**:
    In your project's Renovate configuration file (commonly `renovate.json`), extend the desired preset from this repository. For example:
 
-   ```json
+   ```json5
    {
      $schema: "https://docs.renovatebot.com/renovate-schema.json",
      extends: [
