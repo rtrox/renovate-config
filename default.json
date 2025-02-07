@@ -19,5 +19,6 @@
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
   "rebaseWhen": "conflicted",
+  "assignees": ["rtrox"],
   "platformCommit": "auto"
 }
